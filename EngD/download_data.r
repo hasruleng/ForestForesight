@@ -1,6 +1,10 @@
+# This code is to download data such as model, pre-processed data, and previous predicitions made by FF
+# Alternatively, you can download those and other data using Cyberduck
+# https://forestforesight.atlassian.net/wiki/spaces/EWS/pages/550535173/Downloading+Forest+Foresight+data
+
 download_folder <- "C:/Kodingan3/FFdata/" #adjust this
 # Choose an identifier (country code, tile ID, or SpatVector)
-identifier <- "PER"  # Use this if you only want to download one country, i.e.: Peru
+identifier <- "PER"  # this doesn't seem to work
 # identifier <- shape # Or, use this if you want to download every country data 
 # Call the ff_sync function
 ff_sync(
